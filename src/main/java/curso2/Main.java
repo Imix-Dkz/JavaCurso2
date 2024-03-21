@@ -19,6 +19,7 @@ public class Main {
 					+ "\n 3.- Calcular año de nacimiento"
 					+ "\n 4.- Salir");
 			opcion = in.nextInt();
+			in.nextLine();
 			
 			switch (opcion){
 				case 1: //Se Piden Datos

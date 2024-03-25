@@ -2,11 +2,13 @@ package curso2;
 import java.time.YearMonth;
 
 public class Persona {
-	int edad;
-	String colorPiel;
-	String colorPelo;
-	String colorOjos;
-	String nombre;
+	public int edad;
+	public String colorPiel;
+	public colorPelo;
+	public colorOjos;
+	public nombre;
+	//[Nota]: No es correcto acceder a a metodos PUBLICOS
+	//		Lo correcto es encapsular los datos
 	
 	//public void muestraDatos(int edad, String colorPiel, String colorPelo, String colorOjos){
 	public void muestraDatos(Persona varP){
@@ -19,7 +21,7 @@ public class Persona {
 		System.out.println(
 				"{Nombre:"+varP.nombre+", Edad:"+varP.edad+
 				", colorPiel:"+varP.colorPiel+
-				", colorPelo:+"+varP.colorPelo+
+				", colorPelo:"+varP.colorPelo+
 				", colorOjos:"+varP.colorOjos+"}"
 		);
 	}

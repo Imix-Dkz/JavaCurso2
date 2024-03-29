@@ -74,7 +74,15 @@ Despues de eso les saldra una ventana de validación de cuenta, pueden hacerlo c
 Con eso tendrán su proyecto subido a su cuenta de github :
  * ![PROYECTO_ARRIBA](PROYECTO_ARRIBA.png)
 
-[NOTA]:
+## [NOTAS]:
+### Nota 1: 
+* A partir de aqui, cada que realizen un cambio a algún archivo del proyecto, lo siguiente es, realizar una comprobación de archivos modificados, preparación de archivos, commit y push de los archivos a la cuenta de github...
+  + git status 
+  + git add .
+  + git commit -m "Descripción del nuevo cambio"
+  + git push
+
+### Nota 2:
 * Hay mucho más que aprender de GIT, recomiendo el siguiente video, para aprender un poco más al respecto sobre sus usos y ventajas(es un poco largo, 4hrs~), pero considero que es muy útil y claro sobre lo que se puede hacer ...
 * ![curso_git_4hrs](curso_git_4hrs.png)
 * [Curso de GIT desde CERO (Completo)](https://youtu.be/9ZJ-K-zk_Go?si=AplYhpwiIQ_zyb7G)

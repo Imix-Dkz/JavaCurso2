@@ -48,7 +48,8 @@ Escribir el nombre del repositorio( se recomienda sin espacios o usar guiones pa
 Lo siguiente será seguir los paso para vincular la terminal a la cuenta, nos centraemos en los pasos que sugiere la propia página...
 ![repo_init](repo_init.png)
 
-**Pero antes**... Desde la terminal de GitBash...
+### **Pero antes**... 
+## Desde la terminal de GitBash...
 * Asegurence de que siguen en el directorio en el que se inicializó el proyecto en GIT, en caso contrario, vuelvan a ubicarse en el...
   + Registrar el correo de su cuenta de github:
     >    git config --global user.email "hello@example.com"
@@ -57,7 +58,7 @@ Lo siguiente será seguir los paso para vincular la terminal a la cuenta, nos ce
 
 * Si lo hicieron correctamente al ejecutar :
     >    git config --list
-  + Veran algo similar a esto, con los datos que ustedes ingresaron
+  + Veran algo similar a esto, con los datos que **USTEDES INGRESARON**
   + ![git_datos](git_datos.png)
 
 Lo siguientes es seguir los pasos que nos indico la página de github para cargar nuestro repositorio(**USEN LOS DATOS DE SU PROPIO REPOSITORIO**) ...
@@ -65,7 +66,7 @@ Lo siguientes es seguir los pasos que nos indico la página de github para carga
   + >    git push -u origin main
 
 ### [NOTA]
-Despues de eso les saldra una ventana de validación de cuenta, pueden hacerlo con los datos de su cuenta de github y con eso podran, continuar, hay otros metodos como los TOKEN temporales o accesos especiales, pero por ahora usaremos ese, si se hizo correctamente al escribir "git push"( despues de hacer un commit correcto ), se podrá ver lo siguiente ...:
+Despues de eso les saldra una ventana de validación de cuenta, pueden hacerlo con los **datos de su cuenta** de github y con eso podrán, continuar, hay otros metodos como los TOKEN temporales o accesos especiales, pero por ahora usaremos ese, si se hizo correctamente al escribir "git push"( despues de hacer un commit correcto ), se podrá ver lo siguiente ...:
 * >    git push
 * ![git_push](git_push.png)
 
@@ -75,5 +76,6 @@ Con eso tendrán su proyecto subido a su cuenta de github :
 
 [NOTA]:
 * Hay mucho más que aprender de GIT, recomiendo el siguiente video, para aprender un poco más al respecto sobre sus usos y ventajas(es un poco largo, 4hrs~), pero considero que es muy útil y claro sobre lo que se puede hacer ...
+* ![curso_git_4hrs](curso_git_4hrs.png)
 * [Curso de GIT desde CERO (Completo)](https://youtu.be/9ZJ-K-zk_Go?si=AplYhpwiIQ_zyb7G)
 * Del Canal: **Soy Dalton**, en Youtube

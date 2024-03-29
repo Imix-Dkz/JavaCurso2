@@ -22,5 +22,8 @@ Se presenta un pequeño documento y tutorial para el uso de GIT para la carga de
 * Lo siguiente, será realizar el primer "COMMIT", para eso PRIMERO, hay que preparar los archivos que serán "commiteados"
 * Desde la terminal, hay que ver que archivos están pendientes por agregar, ya sea porque es archivo NUEVO ó porque recien se modifico, estó se hace con "git status"
     >    git status
-    + ![git_status](git_status.png)
-    + 
+    + ![git_status1](git_status1.png)
+* Para agregar los archivos modificados, pueden hacerlo con el comando "git add ."
+    >    git add .
+    + Pueden comprobar que se prepararón correctamente los archivos, nuevamente con "git status", se tendria que ver más o menos así...
+    + ![git_add](git_add.png)

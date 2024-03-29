@@ -2,7 +2,7 @@
 Se presenta un pequeño documento y tutorial para el uso de GIT para la carga de proyectos en GitHUB.com
 
 ## Requisitos 
-* Tener una cuenta activa de GitHub, en caso de no tenerla, crearla en la página [github.com](https://github.com)
+* **Tener una cuenta activa de GitHub**, en caso de no tenerla, **crearla** en la página [github.com](https://github.com)
 * Tener instalada alguna versión de GIT y GitBash( la terminal por defecto de GIT ), es caso de no tenerla, descargarla de la [página de GIT](https://git-scm.com/downloads), en mi caso tengo la versión 2.41, ahora mismo la versión más nueva creo que es la 2.44, no deberia de haber gran diferencia, instalenlo
 * Al terminar esa instalación deben de tener uno o más programas con el siguiente icono...
   + ![git_logos](git_logos.png)
@@ -32,7 +32,7 @@ Se presenta un pequeño documento y tutorial para el uso de GIT para la carga de
     + ![git_commit](git_commit.png)
     + Si lo hicieron correctamente al ejecutar "git status", si no han alterado ningún archivo más, deberia de verse algo así...
     + ![git_status2](git_status2.png)
-* LISTO, con eso el proyecto estará siendo supervisado en versiones por GIT 
+* **LISTO**, con eso el proyecto estará siendo supervisado en versiones por GIT 
 * Lo siguiente será vincular su terminal local de GitBash, con su cuenta online de GitHub
 
 ## Creando un repositorio en GitHub ...
@@ -48,7 +48,7 @@ Escribir el nombre del repositorio( se recomienda sin espacios o usar guiones pa
 Lo siguiente será seguir los paso para vincular la terminal a la cuenta, nos centraemos en los pasos que sugiere la propia página...
 ![repo_init](repo_init.png)
 
-Pero antes... Desde la terminal de GitBash...
+**Pero antes**... Desde la terminal de GitBash...
 * Asegurence de que siguen en el directorio en el que se inicializó el proyecto en GIT, en caso contrario, vuelvan a ubicarse en el...
   + Registrar el correo de su cuenta de github:
     >    git config --global user.email "hello@example.com"
@@ -60,7 +60,7 @@ Pero antes... Desde la terminal de GitBash...
   + Veran algo similar a esto, con los datos que ustedes ingresaron
   + ![git_datos](git_datos.png)
 
-Lo siguientes es seguir los pasos que nos indico la página de github para cargar nuestro repositorio(USEN LOS DATOS DE SU PROPIO REPOSITORIO) ...
+Lo siguientes es seguir los pasos que nos indico la página de github para cargar nuestro repositorio(**USEN LOS DATOS DE SU PROPIO REPOSITORIO**) ...
   + >    git remote add origin https://github.com/Imix-Dkz/repo-java.git
   + >    git push -u origin main
 
@@ -69,9 +69,11 @@ Despues de eso les saldra una ventana de validación de cuenta, pueden hacerlo c
 * >    git push
 * ![git_push](git_push.png)
 
+## LISTO!!!
 Con eso tendrán su proyecto subido a su cuenta de github :
  * ![PROYECTO_ARRIBA](PROYECTO_ARRIBA.png)
 
 [NOTA]:
 * Hay mucho más que aprender de GIT, recomiendo el siguiente video, para aprender un poco más al respecto sobre sus usos y ventajas(es un poco largo, 4hrs~), pero considero que es muy útil y claro sobre lo que se puede hacer ...
-* [Curso de GIT desde CERO (Completo), Canal: **Soy Dalton**](https://youtu.be/9ZJ-K-zk_Go?si=AplYhpwiIQ_zyb7G)
+* [Curso de GIT desde CERO (Completo)](https://youtu.be/9ZJ-K-zk_Go?si=AplYhpwiIQ_zyb7G)
+* Del Canal: **Soy Dalton**, en Youtube

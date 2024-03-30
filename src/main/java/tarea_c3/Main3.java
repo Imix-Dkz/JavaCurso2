@@ -1,7 +1,5 @@
 package tarea_c3;
 
-import curso3.Persona;
-
 public class Main3 {
 	public static void main(String[] args) {
 		
@@ -14,7 +12,7 @@ public class Main3 {
 		String colorPeloBase = "Castaño"; 
 		String colorOjosBase = "Cafés";
 		
-		String strTmp = "";
+		//String strTmp = "";
 		
 		for(int i=0; i<15; i++) {
 			personaArray[i] = new Persona();

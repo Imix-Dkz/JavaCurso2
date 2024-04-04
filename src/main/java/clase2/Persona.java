@@ -1,12 +1,12 @@
-package curso2;
+package clase2;
 import java.time.YearMonth;
 
 public class Persona {
 	public int edad;
 	public String colorPiel;
-	public colorPelo;
-	public colorOjos;
-	public nombre;
+	public String colorPelo;
+	public String colorOjos;
+	public String nombre;
 	//[Nota]: No es correcto acceder a a metodos PUBLICOS
 	//		Lo correcto es encapsular los datos
 	

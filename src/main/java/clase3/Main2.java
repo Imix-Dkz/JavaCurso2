@@ -1,4 +1,4 @@
-package curso3;
+package clase3;
 //import curso2.Persona;
 
 public class Main2 {

@@ -1,4 +1,4 @@
-package curso2;
+package clase2;
 import java.util.Scanner;
 
 public class Main {

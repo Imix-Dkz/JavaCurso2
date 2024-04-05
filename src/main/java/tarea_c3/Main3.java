@@ -12,7 +12,7 @@ public class Main3 {
 		String colorPeloBase = "Castaño"; 
 		String colorOjosBase = "Cafés";
 		
-		//String strTmp = "";
+		//String strTmp = " ";
 		
 		for(int i=0; i<15; i++) {
 			personaArray[i] = new Persona();
